@@ -1,0 +1,20 @@
+{
+  "name": "yaml-chinesize",
+  "version": "0.0.1",
+  "description": "Convert English YAML Files to Chinese",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "yaml-chinesize": "bin/yaml-chinesize.js"
+  },
+  "author": "cp3hnu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0",
+    "yaml": "^2.7.0"
+  }
+}
